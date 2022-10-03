@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="description" content="" />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Oswald:wght@500&family=Poppins:ital,wght@1,300&family=Qwitcher+Grypen&family=Roboto:wght@300&display=swap");
+    </style>
+
+    <link rel="stylesheet" href="style.css" />
+
+    <title>DVictor Guess My Number Game</title>
+  </head>
+  <body class="body">
+    <!--THE SUBSECTION CONTAINING AGAIN TAB AND BETWEEN 1 AND 20-->
+    <section class="again_sec">
+      <div class="again-sec_firstdiv">
+        <button class="firstagain_button">Again</button>
+      </div>
+      <div class="again-sec_seconddiv">
+        <p class="firstagain_p">(Between 1 and 20)</p>
+      </div>
+    </section>
+    <!--THE SUBSECTION CONTAINING GUESS MY NUMBER-->
+    <section class="suess_section">
+      <h1 class="guess-ssection_h1">Guess My Number</h1>
+    </section>
+    <section class="guesssec_two">
+      <div class="correctsectwo">
+        <hr class="guesssec_twohr" />
+        <div class="guess-sectwo-div"><p class="guess-sectwo_p">?</p></div>
+      </div>
+    </section>
+
+    <!--THE START GUESSING AND OTHER GAME CONTENT STARTS HER-->
+    <div class="guess_box">
+      <section class="entergues_sec">
+        <div class="enterguess_box">
+          <input type="number" class="enterguess-value" />
+        </div>
+        <button class="check_button">Check!</button>
+      </section>
+
+      <div class="startguess_box">
+        <p class="startguess_value">Start guessing....</p>
+        <p class="startguess_p">👏Score: <span class="score">20</span></p>
+        <p class="startguess_highscore">
+          🎉Highscore: <span class="highscore">0</span>
+        </p>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,413 @@
+/*
+html5doctor.comResetStylesheet
+v1.6.1
+LastUpdated:2010-09-17
+Author:RichardClark-http://richclarkdesign.com
+Twitter:@rich_clark
+*/
+html,
+body,
+div,
+span,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+abbr,
+address,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+samp,
+small,
+strong,
+sub,
+sup,
+var,
+b,
+i,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+body {
+  line-height: 1;
+}
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+navul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+a {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+/*changecolourstosuityourneeds*/
+ins {
+  background-color: #ff9;
+  color: #000;
+  text-decoration: none;
+}
+/*changecolourstosuityourneeds*/
+mark {
+  background-color: #ff9;
+  color: #000;
+  font-style: italic;
+  font-weight: bold;
+}
+del {
+  text-decoration: line-through;
+}
+abbr[title],
+dfn[title] {
+  border-bottom: 1pxdotted;
+  cursor: help;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+/*changebordercolourtosuityourneeds*/
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid#cccccc;
+  margin: 1em0;
+  padding: 0;
+}
+input,
+select {
+  vertical-align: middle;
+}
+/*THE FONT GOONLE ONLINE */
+/*font-family: 'Bungee Spice', cursive;
+font-family: 'Oswald', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Qwitcher Grypen', cursive;
+font-family: 'Roboto', sans-serif;*/
+/*MY CONTENT STYLING STARTS HERE*/
+body {
+  background-image: linear-gradient(to right, rgb(22, 150, 65), rgb(18, 42, 9));
+  /*FIRST SECTION CONTAINING AGAIN AND BETWEEN STYLING STARTS HERE*/
+}
+.again_sec {
+  width: 100%;
+
+  display: flex;
+  height: 100px;
+  align-items: center;
+}
+.firstagain_button {
+  width: 90px;
+  margin-left: 10px;
+  height: 50px;
+  border: none;
+  font-size: 20px;
+  font-family: "Roboto", sans-serif;
+}
+.again-sec_seconddiv {
+  width: calc(100vw - 100px);
+  height: 50px;
+}
+.firstagain_p {
+  margin-right: 10px;
+  float: right;
+  color: white;
+  font-size: 15px;
+  font-family: "Qwitcher Grypen", cursive;
+}
+/*GUESS MY NUMBER STYLING STARTS HERE*/
+.suess_section {
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.guess-ssection_h1 {
+  font-size: 30px;
+  font-family: "Oswald", sans-serif;
+  font-weight: 900;
+}
+.guesssec_two {
+  height: 140px;
+}
+.correctsectwo {
+  width: 100%;
+  height: 100%;
+
+  display: inline-block;
+}
+.guesssec_twohr {
+  background-color: white;
+  height: 5px;
+  margin-top: 70px;
+  color: white;
+}
+.guess-sectwo-div {
+  width: 100px;
+  height: 80px;
+  margin-top: 40px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -50px;
+  margin-left: 38%;
+}
+.guess-sectwo_p {
+  font-weight: 900;
+  font-size: 30px;
+  font-family: "Qwitcher Grypen", cursive;
+}
+/*THE LAST SECTION CONTAINING THE GUESSBOOX AND THE ENTER GUESS BOX*/
+.guess_box {
+  display: flex;
+  height: 250px;
+  align-items: center;
+}
+.entergues_sec {
+  display: flex;
+  flex-direction: column;
+  margin-left: 5vw;
+}
+.enterguess_box {
+  width: 120px;
+  height: 70px;
+  border: 2px solid black;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.enterguess-value {
+  background-color: white;
+  border: none;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 40px;
+}
+.check_button {
+  width: 120px;
+  border: none;
+  height: 40px;
+  margin-top: 20px;
+  align-self: center;
+}
+.startguess_box {
+  height: 160px;
+  width: 300px;
+  margin-left: 15vw;
+}
+.startguess_value,
+.startguess_highscore {
+  margin-top: 20px;
+  font-family: "Roboto", sans-serif;
+  color: white;
+}
+.startguess_p {
+  margin-top: 40px;
+  font-family: "Roboto", sans-serif;
+  color: white;
+}
+@media only screen and (min-device-width: 768px) {
+  .firstagain_button {
+    width: 120px;
+    margin-left: 50px;
+    height: 50px;
+
+    font-size: 30px;
+
+    margin-top: 30px;
+  }
+
+  .firstagain_p {
+    margin-right: 30px;
+
+    font-size: 20px;
+    margin-top: 30px;
+  }
+  /*GUESS MY NUMBER STYLING STARTS HERE*/
+
+  .guess-ssection_h1 {
+    font-size: 50px;
+
+    margin-top: 100px;
+  }
+  .guesssec_two {
+    height: 140px;
+    margin-top: 80px;
+  }
+
+  .guess-sectwo_p {
+    font-size: 50px;
+  }
+  /*THE LAST SECTION CONTAINING THE GUESSBOOX AND THE ENTER GUESS BOX*/
+  .guess_box {
+    margin-top: 80px;
+  }
+  .entergues_sec {
+    margin-left: 10vw;
+  }
+  .enterguess_box {
+    width: 130px;
+  }
+
+  .startguess_box {
+    margin-left: 35vw;
+  }
+  .startguess_value,
+  .startguess_highscore {
+    margin-top: 20px;
+    font-family: "Roboto", sans-serif;
+    color: white;
+    font-size: 25px;
+  }
+  .startguess_p {
+    margin-top: 40px;
+    font-family: "Roboto", sans-serif;
+    color: white;
+    font-size: 25px;
+  }
+}
+@media only screen and (min-device-width: 1024px) {
+  .firstagain_button {
+    width: 120px;
+    margin-left: 50px;
+    height: 50px;
+
+    font-size: 30px;
+
+    margin-top: 30px;
+  }
+
+  .firstagain_p {
+    margin-right: 30px;
+
+    font-size: 20px;
+    margin-top: 30px;
+  }
+  /*GUESS MY NUMBER STYLING STARTS HERE*/
+
+  .guess-ssection_h1 {
+    font-size: 50px;
+
+    margin-top: 100px;
+  }
+  .guesssec_two {
+    height: 140px;
+    margin-top: 80px;
+  }
+
+  .guess-sectwo_p {
+    font-size: 50px;
+  }
+  /*THE LAST SECTION CONTAINING THE GUESSBOOX AND THE ENTER GUESS BOX*/
+  .guess_box {
+    margin-top: 80px;
+  }
+  .entergues_sec {
+    margin-left: 10vw;
+  }
+  .enterguess_box {
+    width: 130px;
+  }
+
+  .startguess_box {
+    margin-left: 35vw;
+  }
+  .startguess_value,
+  .startguess_highscore {
+    margin-top: 20px;
+    font-family: "Roboto", sans-serif;
+    color: white;
+    font-size: 25px;
+  }
+  .startguess_p {
+    margin-top: 40px;
+    font-family: "Roboto", sans-serif;
+    color: white;
+    font-size: 25px;
+  }
+}
